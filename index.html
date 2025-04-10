@@ -18,12 +18,12 @@
 
 <body>
 
-<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light">
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark">
   <div class="container">
     <nav class="js-mega-menu navbar-nav-wrap">
       <!-- Default Logo -->
       <a class="navbar-brand" href="./" aria-label="Mical">
-        <img class="navbar-brand-logo" src="./assets/img/brand/logo-Mical-propiedades.png" alt="Logo">
+        <img class="navbar-brand-logo" src="./assets/img/brand/logo-Mical-propiedades-blanco- 1.png" alt="Logo">
       </a>
       <!-- End Default Logo -->
 
@@ -41,34 +41,27 @@
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href=".">Home</a>
-          </li>
-
-          <!-- Dropdown -->
-          <li class="hs-has-sub-menu nav-item">
-            <a id="listingsDropdown" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Propiedades</a>
-            <div class="hs-sub-menu dropdown-menu" aria-labelledby="listingsDropdown" style="min-width: 14rem;">
-              <a class="dropdown-item " href="../demo-real-estate/property-list.html">Venta</a>
-              <a class="dropdown-item " href="..#">Arriendo</a>
-            </div>
-          </li>
-          <!-- End Dropdown -->
-
-          <!-- Dropdown -->
-          <li class="hs-has-sub-menu nav-item">
-            <a id="listingsDropdown" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Por tipo</a>
-            <div class="hs-sub-menu dropdown-menu" aria-labelledby="listingsDropdown" style="min-width: 14rem;">
-              <a class="dropdown-item " href="../demo-real-estate/property-list.html">Casa</a>
-              <a class="dropdown-item " href="..#">Depto</a>
-              <a class="dropdown-item " href="..#">Duplex</a>
-            </div>
-          </li>
-          <!-- End Dropdown -->
 
           <li class="nav-item">
-            <a class="btn btn-primary btn-transition" href="..#">Quiero que me contacten</a>
+            <a class="nav-link" href="#comprar">Comprar</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#arrendar">Arrendar</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#arrendar">Contactar ahora</a>
+          </li>
+
+          <li class="nav-item ms-2">
+            <a class="btn btn-primary px-6" href="#proyectos">Ver proyectos <i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+              </svg></i>
+            </a>
+          </li>
+
         </ul>
       </div>
       <!-- End Collapse -->
@@ -77,52 +70,22 @@
 </header>
 
   <main id="content" role="main">
-
-    <div class="position-relative overflow-hidden content-space-t-md-4">
-      <div class="container">
-        <div class="position-relative content-space-t-3 content-space-t-md-0 content-space-t-lg-3 content-space-b-2 content-space-b-md-3 content-space-b-xl-2">
-          <div class="row position-relative zi-2 mt-md-n5">
-            <div class="col-md-8 mb-7 mb-md-0">
-              <!-- Heading -->
-              <div class="w-md-75 mb-7">
-                <h1 class="display-4">Encuentra tu futuro proyecto
-                  <span class="text-primary text-highlight-warning">
-                    <span class="js-typedjs" data-hs-typed-options='{
-                            "strings": ["love to live", "enjoy living"],
-                            "typeSpeed": 90,
-                            "loop": true,
-                            "backSpeed": 30,
-                            "backDelay": 2500
-                          }'></span>
-                  </span>
-                </h1>
-              </div>
-              <!-- End Heading -->
-
-              <a class="btn btn-primary btn-lg" href="#cotizar">Descubrir mis opciones<i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
-                </svg></i></a>
-
-              <p class="form-text small">Encuentra propiedades en más de 20 comunas</p>
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
-
-          <div class="col-md-6 position-md-absolute top-0 end-0">
-            <img class="img-fluid" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
-          </div>
-        </div>
+    <div class="bg-img-start mx-4" style="background-image: url(./assets/img/proyectos/hero.jpg);">
+    <div class="d-md-flex content-space-3 content-space-md-0">
+      <div class="container d-md-flex justify-content-md-center align-items-md-center flex-md-column min-vh-md-100 text-center">
+        <h1 class="display-1 text-white">Mical propiedades</h1>
+        <p class="lead text-white">Versatilidad para distintas maneras de vivir.</p>
+        <a class="btn btn-light btn-transition" href="#">Ver proyectos</a>
       </div>
-
-      <div class="col-md-10 position-absolute top-0 start-0 zi-n1 gradient-y-three-sm-primary h-100" style="background-size: calc(1000px + (100vw - 1000px) / 2);"></div>
+    </div>
     </div>
 
-    <div class="container content-space-2 content-space-b-lg-3">
+    <div class="container content-space-2 content-space-b-lg-1">
       <!-- Title -->
-      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
-        <h2>Nuestros proyectos</h2>
+      <div class="mx-md-auto mb-7">
+        <span class="text-cap">Nuevo Proyecto 2025
+        </span>
+        <h2>Helsby, La Reina</h2>
       </div>
       <!-- End Title -->
 
@@ -131,11 +94,12 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
 
               <div class="card-pinned-top-start">
-                <span class="badge bg-success">Nuevo</span>
+                <span class="badge bg-primary">Entrega inmediata</span>
               </div>
+
             </div>
 
             <!-- Body -->
@@ -144,7 +108,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -191,7 +155,11 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
+
+              <div class="card-pinned-top-start">
+                <span class="badge bg-primary">Entrega inmediata</span>
+              </div>
             </div>
 
             <!-- Body -->
@@ -200,7 +168,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -247,7 +215,11 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
+
+              <div class="card-pinned-top-start">
+                <span class="badge bg-primary">Entrega inmediata</span>
+              </div>
 
               <div class="card-pinned-top-start">
                 <span class="badge bg-primary">Entrega inmediata</span>
@@ -260,7 +232,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -307,7 +279,11 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
+
+              <div class="card-pinned-top-start">
+                <span class="badge bg-primary">Entrega inmediata</span>
+              </div>
             </div>
 
             <!-- Body -->
@@ -316,7 +292,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -363,7 +339,11 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
+
+              <div class="card-pinned-top-start">
+                <span class="badge bg-primary">Entrega inmediata</span>
+              </div>
             </div>
 
             <!-- Body -->
@@ -372,7 +352,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -419,10 +399,10 @@
           <!-- Card -->
           <a class="card card-flush shadow-none h-100" href="#">
             <div class="card-pinned">
-              <img class="card-img" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
+              <img class="card-img" src="./assets/img/proyectos/helsby-fachada-noche.png" alt="Image Description">
 
               <div class="card-pinned-top-start">
-                <span class="badge bg-success">Nuevo</span>
+                <span class="badge bg-primary">Entrega inmediata</span>
               </div>
             </div>
 
@@ -432,7 +412,7 @@
 
               <div class="row align-items-center mb-3">
                 <div class="col">
-                  <h4 class="card-title text-inherit">Helsby Townhouse, Las Condes</h4>
+                  <h4 class="card-title text-inherit">Helsby Las Reina</h4>
                 </div>
                 <!-- End Col -->
 
@@ -477,204 +457,178 @@
       </div>
       <!-- End Row -->
 
-      <div class="text-center">
-        <a class="btn btn-outline-primary" href="..#">Ver todas las propiedades <i class="bi-chevron-right small ms-1"></i></a>
-      </div>
     </div>
 
-    <div class="position-relative">
-      <div class="container content-space-lg-3">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-9 mb-7 mb-md-0">
-            <!-- Heading -->
-            <div class="w-md-65 mb-7">
-              <h2 class="h1">Te acompañamos en cada paso que des</h2>
-              <p>Nos encargamos de todas las etapas de tu inversión, desde la redacción de promesa y firma de tu escritura, hasta la entrega oficial de tu propiedad.</p>
+    <div class="container content-space-1">
+    <div class="w-lg-75 text-center mx-lg-auto">
+      <!-- Heading -->
+      <div class="mb-5 mb-md-10">
+        <h1 class="display-4">Arquitectura y diseño</h1>
+        <p class="lead">Versatilidad para distintas maneras de vivir, todo bien pensado para una casa práctica y cómoda.</p>
+      </div>
+      <!-- End Heading -->
+    </div>
+
+    <div class="row gx-3">
+      <div class="col mb-3">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/helsby-terraza.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-3 d-none d-md-block mb-3">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/comedor.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+
+      <div class="col mb-3">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/dormitorio.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+
+      <div class="w-100"></div>
+
+      <div class="col mb-3 mb-md-0">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/dormitorio-niño.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-4 d-none d-md-block mb-3 mb-md-0">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/dormitorio-niña.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+
+      <div class="col">
+        <div class="bg-img-start" style="background-image: url(./assets/img/proyectos/vecindario.png); height: 15rem;"></div>
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Row -->
+    </div>
+
+    <div class="container content-space-2">
+    <!-- Title -->
+    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+      <h2>Futuros proyectos</h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="row">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <!-- Card -->
+        <a class="card card-transition bg-soft-primary shadow-none h-100" href="#" style="min-height: 25rem;">
+          <div class="card-body">
+            <div class="mb-5">
+              <img class="card-img" src="./assets/img/proyectos/plaza-helsinki-II.png" alt="Image Description">
             </div>
-            <!-- End Heading -->
-
-            <div class="row">
-              <div class="col-md-4 mb-3 mb-md-0">
-                <!-- Card -->
-                <div class="card h-100">
-                  <div class="card-body">
-                    <span class="svg-icon text-primary mb-3">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B" />
-                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
-                      </svg>
-
-                    </span>
-                    <h4 class="card-title">Financia tu inversión de la mejor forma.</h4>
-                    <a class="card-link" href="#">Contactar ahora <i class="bi-chevron-right small ms-1"></i></a>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Col -->
-
-              <div class="col-md-4 mb-3 mb-md-0">
-                <!-- Card -->
-                <div class="card h-100">
-                  <div class="card-body">
-                    <span class="svg-icon text-primary mb-3">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="#035A4B" />
-                        <path opacity="0.3" d="M11 20C6 20 2 16 2 11C2 6 6 2 11 2C16 2 20 6 20 11C20 16 16 20 11 20ZM11 4C7.1 4 4 7.1 4 11C4 14.9 7.1 18 11 18C14.9 18 18 14.9 18 11C18 7.1 14.9 4 11 4ZM8 11C8 9.3 9.3 8 11 8C11.6 8 12 7.6 12 7C12 6.4 11.6 6 11 6C8.2 6 6 8.2 6 11C6 11.6 6.4 12 7 12C7.6 12 8 11.6 8 11Z" fill="#035A4B" />
-                      </svg>
-
-                    </span>
-                    <h4 class="card-title">Olvídate de los tramites y el papeleo</h4>
-                    <a class="card-link" href="#">Contactar ahora <i class="bi-chevron-right small ms-1"></i></a>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Col -->
-
-              <div class="col-md-4">
-                <!-- Card -->
-                <div class="card h-100">
-                  <div class="card-body">
-                    <span class="svg-icon text-primary mb-3">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M18 22H6C5.4 22 5 21.6 5 21V8C6.6 6.4 7.4 5.6 9 4H15C16.6 5.6 17.4 6.4 19 8V21C19 21.6 18.6 22 18 22ZM12 5.5C11.2 5.5 10.5 6.2 10.5 7C10.5 7.8 11.2 8.5 12 8.5C12.8 8.5 13.5 7.8 13.5 7C13.5 6.2 12.8 5.5 12 5.5Z" fill="#035A4B" />
-                        <path d="M12 7C11.4 7 11 6.6 11 6V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V6C13 6.6 12.6 7 12 7ZM15.1 10.6C15.1 10.5 15.1 10.4 15 10.3C14.9 10.2 14.8 10.2 14.7 10.2C14.6 10.2 14.5 10.2 14.4 10.3C14.3 10.4 14.3 10.5 14.2 10.6L9 19.1C8.9 19.2 8.89999 19.3 8.89999 19.4C8.89999 19.5 8.9 19.6 9 19.7C9.1 19.8 9.2 19.8 9.3 19.8C9.5 19.8 9.6 19.7 9.8 19.5L15 11.1C15 10.8 15.1 10.7 15.1 10.6ZM11 11.6C10.9 11.3 10.8 11.1 10.6 10.8C10.4 10.6 10.2 10.4 10 10.3C9.8 10.2 9.50001 10.1 9.10001 10.1C8.60001 10.1 8.3 10.2 8 10.4C7.7 10.6 7.49999 10.9 7.39999 11.2C7.29999 11.6 7.2 12 7.2 12.6C7.2 13.1 7.3 13.5 7.5 13.9C7.7 14.3 7.9 14.5 8.2 14.7C8.5 14.9 8.8 14.9 9.2 14.9C9.8 14.9 10.3 14.7 10.6 14.3C11 13.9 11.1 13.3 11.1 12.5C11.1 12.3 11.1 11.9 11 11.6ZM9.8 13.8C9.7 14.1 9.5 14.2 9.2 14.2C9 14.2 8.8 14.1 8.7 14C8.6 13.9 8.5 13.7 8.5 13.5C8.5 13.3 8.39999 13 8.39999 12.6C8.39999 12.2 8.4 11.9 8.5 11.7C8.5 11.5 8.6 11.3 8.7 11.2C8.8 11.1 9 11 9.2 11C9.5 11 9.7 11.1 9.8 11.4C9.9 11.7 10 12 10 12.6C10 13.2 9.9 13.6 9.8 13.8ZM16.5 16.1C16.4 15.8 16.3 15.6 16.1 15.4C15.9 15.2 15.7 15 15.5 14.9C15.3 14.8 15 14.7 14.6 14.7C13.9 14.7 13.4 14.9 13.1 15.3C12.8 15.7 12.6 16.3 12.6 17.1C12.6 17.6 12.7 18 12.9 18.4C13.1 18.7 13.3 19 13.6 19.2C13.9 19.4 14.2 19.5 14.6 19.5C15.2 19.5 15.7 19.3 16 18.9C16.4 18.5 16.5 17.9 16.5 17.1C16.7 16.8 16.6 16.4 16.5 16.1ZM15.3 18.4C15.2 18.7 15 18.8 14.7 18.8C14.4 18.8 14.2 18.7 14.1 18.4C14 18.1 13.9 17.7 13.9 17.2C13.9 16.8 13.9 16.5 14 16.3C14.1 16.1 14.1 15.9 14.2 15.8C14.3 15.7 14.5 15.6 14.7 15.6C15 15.6 15.2 15.7 15.3 16C15.4 16.2 15.5 16.6 15.5 17.2C15.5 17.7 15.4 18.1 15.3 18.4Z" fill="#035A4B" />
-                      </svg>
-
-                    </span>
-                    <h4 class="card-title">¿Buscas asesoría experta? Te ayudamos</h4>
-                    <a class="card-link" href="#">Contactar ahora <i class="fas bi-chevron-right small ms-1"></i></a>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Col -->
-            </div>
-            <!-- End Row -->
           </div>
-          <!-- End Col -->
+          <div class="card-footer pt-0">
+            <span class="card-subtitle text-primary">Departamentos</span>
+
+            <h2 class="card-title">Manuel Montt</h2>
+            <p class="card-link text-primary">Pronto <i class="bi-chevron-right small ms-1"></i></p>
+          </div>
+        </a>
+        <!-- End Card -->
+      </div>
+
+      <div class="col-md-6 mb-3 mb-md-0">
+        <!-- Card -->
+        <a class="card card-transition bg-soft-primary shadow-none h-100" href="#" style="min-height: 25rem;">
+          <div class="card-body">
+            <div class="mb-5">
+              <img class="card-img" src="./assets/img/proyectos/plaza-helsinki-II.png" alt="Image Description">
+            </div>
+          </div>
+          <div class="card-footer pt-0">
+            <span class="card-subtitle text-primary">Departamentos</span>
+
+            <h2 class="card-title">Altos de Huife</h2>
+            <p class="card-link text-primary">Pronto <i class="bi-chevron-right small ms-1"></i></p>
+          </div>
+        </a>
+        <!-- End Card -->
+      </div>
+    </div>
+    </div>
+
+    <div class="container content-space-b-3">
+    <!-- Heading -->
+    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+      <span class="text-cap">Seguridad, conveniencia y tranquilidad</span>
+      <h2>Te acompañamos en cada paso</h2>
+      <p>Déjanos tus datos y te contactaremos de forma anticipada y preferencial, con las mejores propuestas de inversión.</p>
+    </div>
+    <!-- End Heading -->
+
+    <!-- Step -->
+    <ul class="step step-md step-centered">
+      <li class="step-item">
+        <div class="step-content-wrapper">
+          <span class="step-icon step-icon-soft-primary">1</span>
+          <div class="step-content">
+            <h3>Déjanos tus datos</h3>
+            <p>Te contactará un ejecutivo especializado.</p>
+          </div>
         </div>
-        <!-- End Row -->
-      </div>
+      </li>
 
-      <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(../assets/img/900x900/img22.jpg);"></div>
+      <li class="step-item">
+        <div class="step-content-wrapper">
+          <span class="step-icon step-icon-soft-primary">2</span>
+          <div class="step-content">
+            <h3>Envío de propuesta</h3>
+            <p>Te enviaremos la propuesta más adecuada.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="step-item">
+        <div class="step-content-wrapper">
+          <span class="step-icon step-icon-soft-primary">3</span>
+          <div class="step-content">
+            <h3>Te ayudamos con el crédito</h3>
+            <p>Si gustas, podemos gestionar tu crédito a tasas preferenciales.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <!-- End Step -->
     </div>
 
-    <div class="container content-space-1 content-space-lg-2">
-      <div class="row">
-        <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="text-center">
-            <small class="text-cap text-primary">&mdash; Estadistica de éxito </small>
-            <h4 class="display-4">500,000</h4>
-            <p>Texto de ejemplo. Acá se debe explicar la estadística de éxito de Mical.</p>
-          </div>
+    <div class="bg-dark" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
+    <div class="container content-space-2">
+      <div class="row justify-content-lg-between align-items-lg-center">
+        <div class="col-md mb-5 mb-md-0">
+          <h2 class="text-white mb-0">¿Buscas casa en La Reina? Descubre Helsby</h2>
         </div>
         <!-- End Col -->
 
-        <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="text-center">
-            <small class="text-cap text-primary">&mdash; Estadistica de éxito</small>
-            <h4 class="display-4">75%</h4>
-            <p>Texto de ejemplo. Acá se debe explicar la estadística de éxito de Mical.</p>
-          </div>
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-4">
-          <div class="text-center">
-            <small class="text-cap text-primary">&mdash; Estadistica de éxito</small>
-            <h4 class="display-4">125,000</h4>
-            <p>Texto de ejemplo. Acá se debe explicar la estadística de éxito de Mical.</p>
+        <div class="col-md-auto">
+          <div class="d-grid d-sm-flex gap-3">
+            <a class="btn btn-light btn-transition" href="../page-login-simple.html">Contact sales</a>
+            <a class="btn btn-ghost-light btn-transition" href="#">Get started <i class="bi-chevron-right small ms-1"></i></a>
           </div>
         </div>
         <!-- End Col -->
       </div>
       <!-- End Row -->
     </div>
-
-    <div class="overflow-hidden content-space-3 content-space-b-lg-3">
-      <!-- Heading -->
-      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
-        <h2>Qué dicen nuestros clientes</h2>
-        <p>Más de X clientes felices.</p>
-      </div>
-      <!-- End Heading -->
-
-      <div class="container">
-        <div class="row justify-content-center align-items-md-center mb-7">
-          <div class="col-11 col-md-6 col-lg-4 mb-5 mb-md-0 me-md-n9">
-            <!-- Card -->
-            <div class="card">
-              <div class="card-body">
-                <span class="svg-icon text-primary mb-3">
-                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.5001 5.84998C9.0001 7.64998 5.4001 12.15 5.4001 16.2C5.4001 17.1 5.4001 18 5.8501 18.45C6.7501 17.55 8.1001 17.1 9.9001 17.1C13.5001 17.1 16.6501 19.8 16.6501 23.85C16.6501 27.9 13.5001 30.6 9.9001 30.6C6.3001 31.05 4.5001 29.7 3.1501 27.45C1.8001 25.2 1.3501 22.05 1.3501 20.25C1.3501 13.05 4.9501 7.19998 12.6001 3.59998L13.5001 5.84998ZM31.9501 5.84998C27.4501 7.64998 23.8501 12.15 23.8501 16.2C23.8501 17.1 23.8501 18 24.3001 18.45C25.2001 17.55 26.5501 17.1 28.3501 17.1C31.9501 17.1 35.1001 19.8 35.1001 23.85C35.1001 27.9 31.9501 30.6 28.3501 30.6C25.2001 30.6 23.4001 29.25 22.0501 27C19.8001 25.2 19.8001 22.05 19.8001 20.25C19.8001 13.05 23.4001 7.19998 31.0501 3.59998L31.9501 5.84998Z" fill="#377dff" />
-                  </svg>
-
-                </span>
-
-                <!-- Blockquote -->
-                <figure>
-                  <blockquote class="blockquote blockquote-sm blockquote-left-border">"Comprar nuestra casa fue todo un éxito. El proceso de compra fue muy rápido, nos asesoraron en todo momento y salió todo bien."</blockquote>
-
-                  <figcaption class="blockquote-footer">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="avatar avatar-circle" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        Camila Paez
-                        <span class="blockquote-footer-source">Propietaria en Helsby</span>
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-                <!-- End Blockquote -->
-              </div>
-            </div>
-            <!-- End Card -->
-          </div>
-
-          <div class="col-md-6 mt-n9 mt-md-0">
-            <img class="img-fluid" src="./assets/img/proyectos/mockup.avif" alt="Image Description">
-          </div>
-        </div>
-
-        <div class="text-center">
-          <h3>¿Cómo nos evaluan?</h3>
-
-          <!-- Rating -->
-          <div class="d-flex justify-content-center align-items-center gap-1 mb-4">
-            <img src="./assets/img/proyectos/mockup.avif" alt="Review rating" width="16">
-            <img src="./assets/img/proyectos/mockup.avif" alt="Review rating" width="16">
-            <img src="./assets/img/proyectos/mockup.avif" alt="Review rating" width="16">
-            <img src="./assets/img/proyectos/mockup.avif" alt="Review rating" width="16">
-            <img src="./assets/img/proyectos/mockup.avif" alt="Review rating" width="16">
-            <h4 class="ms-2 mb-0">4.85 / 5.0 <span class="text-body small">(2,594)</span></h4>
-          </div>
-          <!-- End Rating -->
-
-          <a class="btn btn-primary px-5" href="#">Lee todas las reseñas <i class="bi-chevron-right small ms-1"></i></a>
-        </div>
-      </div>
     </div>
-    
   </main>
 
-  <footer>
-    <div class="container content-space-t-2 pb-lg-7">
-      <div class="w-md-85 text-lg-center mx-lg-auto">
-        <a class="d-inline-flex align-items-center mb-3" href="./" aria-label="Mical">
-          <img class="brand" src="./assets/img/brand/logo-Mical-propiedades.png" alt="Mical Logo">
-        </a>
-        <!-- End Logo -->
-    <p class="fs-6 mb-1">Mical Propiedades</p>
-    <p class="fs-6">© Mical. 2025. Todos los derechos reservados.</p>
-    <p class="fs-6 mb-1"></p>
-      </div>
+<footer>
+  <div class="container content-space-t-2 pb-lg-7">
+    <div class="w-md-85 text-lg-center mx-lg-auto">
+      <a class="d-inline-flex align-items-center mb-3" href="./" aria-label="Mical">
+        <img class="brand" src="./assets/img/brand/logo-Mical-propiedades.png" alt="Mical Logo">
+      </a>
+      <!-- End Logo -->
+  <p class="fs-6 mb-1">Mical Propiedades</p>
+  <p class="fs-6">© Mical. 2025. Todos los derechos reservados.</p>
+  <p class="fs-6 mb-1"></p>
     </div>
-  </footer>
+  </div>
+</footer>
 
   <!-- ========== END FOOTER ========== -->
 
