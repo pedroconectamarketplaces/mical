@@ -3972,7 +3972,7 @@ textarea.form-control-lg {
 
 .nav-pills {
     --bs-nav-pills-border-radius: 0.5rem;
-    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-color: #00bac7;
     --bs-nav-pills-link-active-bg: rgba(189, 197, 209, 0.2)
 }
 
@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
 }
 
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
-    color: var(--bs-nav-pills-link-active-color);
+    color: #00abc8;
     background-color: var(--bs-nav-pills-link-active-bg)
 }
 
@@ -22496,7 +22496,7 @@ input[type=number] {
 }
 
 .nav-pills .nav-link:hover {
-    color: #fff
+    color: #00bac7
 }
 
 .nav-pills .nav-link.active:hover,.nav-pills .show>.nav-link:hover {
