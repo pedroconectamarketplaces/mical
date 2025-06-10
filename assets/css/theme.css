@@ -18513,9 +18513,6 @@ input[type=number] {
     transform: translateY(-.1875rem)
 }
 
-.btn-check:focus+.btn-primary,.btn-primary:focus,.btn-primary:hover {
-    box-shadow: 0 4px 11px rgb(196,244,196,1)
-}
 
 .btn-check:focus+.btn-secondary,.btn-secondary:focus,.btn-secondary:hover {
     box-shadow: 0 4px 11px rgba(113,134,157,.35)
