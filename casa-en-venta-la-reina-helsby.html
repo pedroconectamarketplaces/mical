@@ -629,41 +629,38 @@
                       <img class="avatar avatar-circle" src="./assets/img/proyectos/ejecutivo.jpg" alt="Image Description">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h4 class="card-title">Solicita más información</h4>
+                      <h4 class="card-title">Coordina tu visita</h4>
                     </div>
                   </div>
                   <!-- End Media -->
 
                   <!-- Form -->
                   <form>
-                    <select class="form-select mb-2">
-                      <option selected="" disabled="">Saber más de esta propiedad</option>
-                      <option value="aboutProperty1">Solicitar visita</option>
-                      <option value="aboutProperty3">Solicitar contacto</option>
-                    </select>
-
                     <div class="mb-2">
                       <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Nombre</label>
                       <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm" placeholder="Nombre" aria-label="Full Name">
                     </div>
 
                     <div class="mb-2">
-                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Email</label>
+                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Correo</label>
                       <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email" aria-label="Email">
                     </div>
 
                     <div class="mb-2">
-                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Phone number</label>
-                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm" placeholder="+912341234" aria-label="+x(xxx)xxx-xx-xx">
+                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Teléfono</label>
+                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm" placeholder="Teléfono" aria-label="Teléfono">
                     </div>
 
-                    <div class="mb-2">
-                      <label for="questionPropertyOverviewContactForm" class="form-label visually-hidden">Property question</label>
-                      <textarea class="form-control" id="questionPropertyOverviewContactForm" placeholder="Me gustaría tener más información..." aria-label="I would like more information about ..." rows="4"></textarea>
+                    <div class="mb-3">
+                          <label class="form-label" for="que_buscas_">Estoy interesado en:</label>
+                          <select id="que_buscas_" class="form-select form-select-lg" name="que_buscas_" aria-label="que_buscas_">
+                            <option selected="Opción 2">Comprar</option>
+                            <option value="Opción 1">Arrendar</option>
+                          </select>
                     </div>
 
                     <div class="d-grid">
-                      <button type="button" class="btn btn-primary">Solicitar</button>
+                      <button type="button" class="btn btn-primary">Solicitar contacto</button>
                     </div>
                   </form>
                   <!-- End Form -->
@@ -682,7 +679,7 @@
       <div id="stickyBlockEndPoint"></div>
     </div>
 
-    <div class="overflow-hidden bg-dark">
+        <div class="overflow-hidden bg-dark">
       <div class="bg-dark rounded-2 mx-3 mx-xl-10" style="background-image: url(./assets/img/proyectos/home/wave-pattern-light.svg);">
         <div class="container-xl container-fluid content-space-1 content-space-md-2 px-4 px-md-8 px-lg-10">
           <div class="row justify-content-lg-between align-items-lg-center">
@@ -700,18 +697,6 @@
 
                 </blockquote>
 
-                <figcaption class="blockquote-footer blockquote-light">
-                  <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="../assets/img/160x160/img10.jpg" alt="Image Description">
-                    </div>
-
-                    <div class="flex-grow-1 ms-3">
-                      Ignacio Calvo
-                      <span class="blockquote-footer-source">Director de Proyecto | Mical Propiedades</span>
-                    </div>
-                  </div>
-                </figcaption>
               </figure>
               <!-- End Blockquote -->
             </div>
@@ -721,12 +706,94 @@
               <div class="card card-lg">
                 <div class="card-body">
                   <div class="mb-4">
-                    <h3 class="card-title">Déjanos tus datos para coordinar tu visita</h3>
+                    <h3 class="card-title">Completa el formulario y te contactaremos para coordinar una visita</h3>
                   </div>
 
-                    <script src="https://js.hsforms.net/forms/embed/49678783.js" defer></script>
-                    <div class="hs-form-frame" data-region="na1" data-form-id="c6597f9c-5d37-48db-ac5b-6eaff8513f57" data-portal-id="49678783"></div>
+                  <!-- Form -->
+                  <form>
+                    <div class="row gx-3">
+                      <div class="col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="firstname">Nombre</label>
+                          <input type="text" class="form-control form-control-lg" name="firstname" id="firstname" placeholder="Nombre" aria-label="firstname">
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
 
+                      <div class="col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="lastname">Apellido</label>
+                          <input type="text" class="form-control form-control-lg" name="lastname" id="lastname" placeholder="Apellido" aria-label="lastname">
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+
+                    <div class="row gx-3">
+                      <div class="col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="hireUsFormWorkEmailEg2">Correo</label>
+                          <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="email@ejemplo.com" aria-label="email@ejemplo.com">
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="hireUsFormCompanyNameEg1">Teléfono <span class="form-label-secondary">(opcional)</span></label>
+                          <input type="text" class="form-control form-control-lg" name="phone" id="phone" placeholder="Teléfono" aria-label="phone">
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+
+                    <div class="row gx-3">
+                      <div class="col-sm-6">
+
+                           <!-- Select -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="hireUsFormCountry">Proyecto de interés:</label>
+                          <select id="hireUsFormCountry" class="form-select form-select-lg" name="hireUsFormNameCountry" aria-label="Country">
+                            <option value="Helsby">Helsby</option>
+                            <option value="Manuel Montt">Manuel Montt</option>
+                            <option value="Otro">Otro</option>
+                          </select>
+                        </div>
+                        <!-- End Select -->
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-sm-6">
+                     
+                        <!-- Select -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="que_buscas_">Estoy interesado en:</label>
+                          <select id="que_buscas_" class="form-select form-select-lg" name="que_buscas_" aria-label="que_buscas_">
+                            <option selected="Opción 2">Comprar</option>
+                            <option value="Opción 1">Arrendar</option>
+                          </select>
+                        </div>
+                        <!-- End Select -->
+                      </div>
+                      <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-primary btn-lg">Solicitar contacto</button>
+                    </div>
+                  </form>
+                  <!-- End Form -->
                 </div>
               </div>
               <!-- End Card -->
