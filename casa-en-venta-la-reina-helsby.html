@@ -254,13 +254,7 @@
                     </i>
                     Jardín
                   </div>
-                  <div class="col-6 col-md-4 mb-3">
-                    <i class="mr-3">
-                      <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00bac7"><path d="M485-240Zm26 80H160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440v80q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32h245q4 21 10.5 41t15.5 39Zm209 80q-73-18-116.5-80T560-298v-102l160-80 160 80v102q0 76-43.5 138T720-80Zm0-84q38-18 59-55t21-79v-52l-80-40-80 40v52q0 42 21 79t59 55ZM480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm240 363Z"></path></svg>                      </span>
-                    </i>
-                    24H
-                  </div>
+                  
 
                    <div class="col-6 col-md-4 mb-3">
                     <i class="mr-3">
@@ -277,13 +271,6 @@
                       </span>
                     </i>
                     Bodega
-                  </div>
-                  <div class="col-6 col-md-4 mb-3">
-                    <i class="mr-3">
-                      <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00bac7"><path d="M120-160q-17 0-28.5-11.5T80-200q0-10 4-18.5T96-232l344-258v-70q0-17 12-28.5t29-11.5q25 0 42-18t17-43q0-25-17.5-42T480-720q-25 0-42.5 17.5T420-660h-80q0-58 41-99t99-41q58 0 99 40.5t41 98.5q0 47-27.5 84T520-526v36l344 258q8 5 12 13.5t4 18.5q0 17-11.5 28.5T840-160H120Zm120-80h480L480-420 240-240Z"></path></svg>                      </span>
-                    </i>
-                    Walk-In Closet
                   </div>
 
                     <div class="col-6 col-md-4 mb-3">
@@ -649,24 +636,27 @@
                   <!-- End Media -->
 
                   <!-- Form -->
-                  <form>
-                    <div class="mb-2">
-                      <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Nombre</label>
-                      <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm" placeholder="Nombre" aria-label="Full Name">
-                    </div>
+                  <form action="/gracias">
+                     <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="firstname">Nombre</label>
+                          <input type="text" class="form-control form-control-lg" name="firstname" id="firstname" placeholder="Nombre" aria-label="firstname">
+                        </div>
+                        <!-- End Form -->
 
-                    <div class="mb-2">
-                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Correo</label>
-                      <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email" aria-label="Email">
-                    </div>
-
-                    <div class="mb-2">
-                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Teléfono</label>
-                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm" placeholder="Teléfono" aria-label="Teléfono">
-                    </div>
+                     <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="hireUsFormWorkEmailEg2">Correo</label>
+                          <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="email@ejemplo.com" aria-label="email@ejemplo.com">
+                        </div>
+                        <!-- End Form -->
+                        <div class="mb-3">
+                          <label class="form-label visually-hidden" for="hireUsFormCompanyNameEg1">Teléfono <span class="form-label-secondary">(opcional)</span></label>
+                          <input type="text" class="form-control form-control-lg" name="phone" id="phone" placeholder="Teléfono" aria-label="phone">
+                        </div>
 
                     <div class="mb-3">
-                          <label class="form-label" for="que_buscas_">Estoy interesado en:</label>
+                      <label class="form-label visually-hidden" for="que_buscas_">Estoy interesado en:</label>
                           <select id="que_buscas_" class="form-select form-select-lg" name="que_buscas_" aria-label="que_buscas_">
                             <option selected="Opción 2">Comprar</option>
                             <option value="Opción 1">Arrendar</option>
@@ -674,7 +664,7 @@
                     </div>
 
                     <div class="d-grid">
-                      <button type="button" class="btn btn-primary">Solicitar contacto</button>
+                      <button type="submit" class="btn btn-primary">Solicitar contacto</button>
                     </div>
                   </form>
                   <!-- End Form -->
@@ -723,8 +713,8 @@
                     <h3 class="card-title">Completa el formulario y te contactaremos para coordinar una visita</h3>
                   </div>
 
-                  <!-- Form -->
-                  <form>
+                    <!-- Form -->
+                  <form action="/gracias">
                     <div class="row gx-3">
                       <div class="col-sm-6">
                         <!-- Form -->
@@ -779,7 +769,6 @@
                           <label class="form-label visually-hidden" for="hireUsFormCountry">Proyecto de interés:</label>
                           <select id="hireUsFormCountry" class="form-select form-select-lg" name="hireUsFormNameCountry" aria-label="Country">
                             <option value="Helsby">Helsby</option>
-                            <option value="Manuel Montt">Manuel Montt</option>
                             <option value="Otro">Otro</option>
                           </select>
                         </div>
